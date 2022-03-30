@@ -1,0 +1,485 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway";
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:600px){  
+    .flex-container{
+        display: flex;
+        flex-direction:column;
+        height: 100%;
+    }
+}
+
+.hidden{
+    display: none;
+}
+
+.under-construction{
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background: #dadada;
+}
+
+.navbar-brand {
+    padding: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .navbar-nav .nav-link {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 50px;
+    line-height: 50px;
+  }
+
+.topbar-view{
+    font-weight: Thin;
+}
+
+.main-content{
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-view{
+/*     width: 100%;
+    height: 92vh; */
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.engineering-view{
+    width: 100%;
+    height: 92vh;
+    flex-direction: column;
+    padding-top: 14vh;
+}
+
+.ev-portfolio-item{
+    margin: 0.4vw;
+    /* width: 25vw; */
+    height: 15vw;
+    display: flex;
+    position:  relative;
+    text-align: center;
+    box-shadow: 0 0 1.25rem 0.125rem rgba(0, 0, 0, .1);
+    font-weight: Bold;
+}
+
+.ev-modal{
+    align-items: center;
+    justify-content: center;
+}
+
+.ev-modal img{
+    width: 400px;
+}
+
+
+.photography-view{
+/*     width: 100%;
+    height: 92vh; */
+    flex-direction: column;
+}
+
+.pv-development{
+    margin: 4vw;
+    width: 40vw;
+    height: 40vw;
+    display: flex;
+    position:  relative;
+    text-align: center;
+    box-shadow: 0 0 1.25rem 0.125rem rgba(0, 0, 0, .1);
+    font-weight: Bold;
+}
+
+.pv-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+}
+
+.portfolio-card{
+    margin: 4vw;
+    width: 30vw;
+    height: 30vw;
+    display: flex;
+    position:  relative;
+    text-align: center;
+    box-shadow: 0 0 1.25rem 0.125rem rgba(0, 0, 0, .1);
+    font-weight: Bold;
+    transition: 0.5s;
+}
+
+.portfolio-card img{
+    display: block;
+    width: 100%;
+    border-radius: 0.2rem;
+}
+
+.pc-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2.6rem;
+}
+
+.portfolio-card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+    
+
+/* Bootstrap overrides*/
+
+/* .modal-dialog{
+    padding: 4rem;
+} */
+
+.modal-footer{
+    justify-content: flex-start;
+    margin-top: 3vh;
+}
+
+/*
+
+
+## Add text on hover ##
+
+.pc-title-hover {
+  display: none;
+}
+
+.pc-img:hover + .pc-title-hover {
+    display: block;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem;
+}
+
+####
+
+
+
+
+## Split image on hover ##
+
+.card-engineering{
+    background: url(/images/code_square_1000px.jpg);
+}
+
+.card-photography{
+    background: url(/images/concert_square_1000px.jpg);
+}
+
+.card-img-container{
+    margin: 4vw;
+    width: 30vw;
+    height: 30vw;
+    background-repeat: none;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.85);
+}
+
+.card-img-container::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:  0;
+    background-color: rgba(51, 43, 48, 0.85);
+}
+
+.card-img-container .card-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+
+.card-engineering .card-img span{
+    width: 20%;
+    height: 100%;
+    background: url(/images/code_square_1000px.jpg);
+    transition: 0.9s ease-in-out;
+    align-items: center;
+    background-size: cover;
+}
+
+.card-engineering .card-img span:nth-child(1){
+    background-position: 0%;
+    transition-delay: 0;
+}
+
+.card-engineering .card-img span:nth-child(2){
+    background-position: 25%;
+    transition-delay: 0.1s;
+}
+
+.card-engineering .card-img span:nth-child(3){
+    background-position: 50%;
+    transition-delay: 0.2s;
+}
+
+.card-engineering .card-img span:nth-child(4){
+    background-position: 75%;
+    transition-delay: 0.3s;
+}
+
+.card-engineering .card-img span:nth-child(5){
+    background-position: 100%;
+    transition-delay: 0.4s;
+}
+
+
+
+
+.card-photography .card-img span{
+    width: 20%;
+    height: 100%;
+    background: url(/images/concert_square_1000px.jpg);
+    transition: 0.9s ease-in-out;
+    align-items: center;
+    background-size: cover;
+}
+
+.card-photography .card-img span:nth-child(1){
+    background-position: 0%;
+    transition-delay: 0;
+}
+
+.card-photography .card-img span:nth-child(2){
+    background-position: 25%;
+    transition-delay: 0.1s;
+}
+
+.card-photography .card-img span:nth-child(3){
+    background-position: 50%;
+    transition-delay: 0.2s;
+}
+
+.card-photography .card-img span:nth-child(4){
+    background-position: 75%;
+    transition-delay: 0.3s;
+}
+
+.card-photography .card-img span:nth-child(5){
+    background-position: 100%;
+    transition-delay: 0.4s;
+}
+
+.card-img-container:hover .card-img > span{
+    transform: translateY(-100%);
+}
+
+.card-content-wrapper{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+
+}
+
+.card-img-container:hover .card-content-wrapper{
+    transform: translateY(0%);
+    transition: 0.9s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+####
+
+
+
+
+## TILT ##
+
+.tilt-box-wrap{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    transition: all 0.6s ease-out;
+    perspective: 1000px
+}
+
+.tilt-box-wrap:hover{
+    transition: all 0.3s linear;
+    transform: scale(1.1);
+}
+
+.tilt-box{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: #fff;
+    font-size: 90px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.6s ease-out;
+    transform:rotateX(0deg) rotateY(0deg);
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+.tilt-box strong{
+    transform:translateZ(40px);
+}
+
+.t_over{
+    width: 33.333%;
+    height: 33.333%;
+    position: absolute;
+    z-index: 1;
+}
+
+.t_over:nth-child(1){ left: 0; top: 0; }
+.t_over:nth-child(2){ left: 33.333%; top: 0; }
+.t_over:nth-child(3){ left: 66.666%; top: 0; }
+.t_over:nth-child(4){ left: 0; top: 33.333%; }
+.t_over:nth-child(5){ left: 33.333%; top: 33.333%; }
+.t_over:nth-child(6){ left: 66.666%; top: 33.333%; }
+.t_over:nth-child(7){ left: 0; top: 66.666%; }
+.t_over:nth-child(8){ left: 33.333%; top: 66.666%; }
+.t_over:nth-child(9){ left: 66.666%; top: 66.666%; }
+.t_over:nth-child(1):hover ~ .tilt-box{transform:rotateX(-20deg) rotateY(20deg);}
+.t_over:nth-child(2):hover ~ .tilt-box{transform: rotateX(-20deg) rotateY(0deg)}
+.t_over:nth-child(3):hover ~ .tilt-box{transform: rotateX(-20deg) rotateY(-20deg)}
+.t_over:nth-child(4):hover ~ .tilt-box{transform: rotateX(0deg) rotateY(20deg)}
+.t_over:nth-child(5):hover ~ .tilt-box{transform: rotateX(0deg) rotateY(0deg)}
+.t_over:nth-child(6):hover ~ .tilt-box{transform: rotateX(0deg) rotateY(-20deg)}
+.t_over:nth-child(7):hover ~ .tilt-box{transform:rotateX(20deg) rotateY(20deg);}
+.t_over:nth-child(8):hover ~ .tilt-box{transform: rotateX(20deg) rotateY(0deg)}
+.t_over:nth-child(9):hover ~ .tilt-box{transform: rotateX(20deg) rotateY(-20deg)}
+
+####
+
+
+
+####
+
+body:before{
+    content: "Parallax";
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16em;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: 1px #555;
+}
+
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+section h2{
+    margin-left: 200px;
+    font-size: 4em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+section .container{
+    position: relative;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+section .container .img-box{
+    position: relative;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 0 25px 35px rgba(0, 0, 0, 0.1);
+}
+
+section .container .img-box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section .container .content{
+    position: absolute;
+    right: 0;
+    margin-top: 200px;
+    margin-bottom: 40px;
+    padding: 40px;
+    background: #333;
+    z-index: 1;
+    max-width: 400px;
+    color: #fff;
+    box-shadow: 0 25px 35px rgba(0, 0, 0, 0.1);
+    border-bottom: 6px solid #4ac7ff;
+}
+
+####
+
+*/
