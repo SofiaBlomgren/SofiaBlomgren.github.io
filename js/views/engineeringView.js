@@ -6,7 +6,7 @@ function EngineeringView(props){
             <div class="flex-container">
                 <div class="flex-column">
                     <div class="flex-row">
-                        <div class="flex-item ev-portfolio-item" data-bs-toggle="modal" data-bs-target="#modal-fintastic">
+                        <div class="flex-item ev-portfolio-item ev-overlay" data-bs-toggle="modal" data-bs-target="#modal-fintastic">
                             <img class="pv-img" src="/images/engineering/fintastic.png"></img>
                         </div>
                         <div class="flex-item ev-portfolio-item" data-bs-toggle="modal" data-bs-target="#modal-osqledaren">

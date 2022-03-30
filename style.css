@@ -99,6 +99,15 @@ body{
     font-weight: Bold;
 }
 
+.ev-overlay{
+    background-color: yellow;
+    z-index: 40;
+}
+
+.ev-portfolio-item:hover .ev-overlay{
+    z-index: -1;
+}
+
 .ev-modal{
     align-items: center;
     justify-content: center;
