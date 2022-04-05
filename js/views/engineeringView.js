@@ -163,7 +163,7 @@ function EngineeringView(props){
 
            {/* Color Perception Modal */}
            <div class="modal ev-modal" id="modal-perception" tabindex="-1">
-                <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
                     <div class="modal-content">
                         <div class="ev-modal-left">
                             <img class="ev-portfolio-item-img" src="/images/engineering/perception.png"></img>
@@ -193,7 +193,7 @@ function EngineeringView(props){
 
            {/* Bachelor Thesis Modal */}
            <div class="modal ev-modal" id="modal-bachelor" tabindex="-1">
-                <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
                     <div class="modal-content">
                         <div class="ev-modal-left">
                             <img class="ev-portfolio-item-img" src="/images/engineering/kex.png"></img>
