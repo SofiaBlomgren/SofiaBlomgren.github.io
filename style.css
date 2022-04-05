@@ -48,7 +48,7 @@
 }
 
 body{
-    background: #dadada;
+    background: #ececec;
 }
 
 .navbar-brand {
@@ -167,6 +167,16 @@ body{
     width: 400px;
 }
 
+.ev-modal-left{
+    background-color: black;
+}
+
+.ev-modal-left img{
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.6;
+}
+
 
 .photography-view{
 /*     width: 100%;
@@ -233,6 +243,11 @@ body{
 /* .modal-dialog{
     padding: 4rem;
 } */
+
+.modal-content{
+    display: flex;
+    flex-direction: row;
+}
 
 .modal-title{
     font-weight: 700;

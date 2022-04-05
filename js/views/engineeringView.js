@@ -69,25 +69,30 @@ function EngineeringView(props){
 
            {/* Fintastic Modal */}
            <div class="modal ev-modal" id="modal-fintastic" tabindex="-1">
-                <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-dialog modal-xl modal-dialog-centered">
                     <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title">Fintastic</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="ev-modal-left">
+                            <img class="ev-portfolio-item-img" src="/images/engineering/fintastic.png"></img>
                         </div>
-                        <div class="modal-body">
-                            <p>Fintastic was created as a school project and is a Virtual Reality game taking place in a beautiful underwater environment at the bottom of the ocean. The player uses a net to catch different fish, which they then collect in a basket next to them.</p>
-                            <video width="400" controls poster="/images/engineering/fintastic.png">
-                                <source src="/videos/FintasticDemo.mp4" type="video/mp4"/>
-                            </video>
-                            <div class="modal-footer">
-                                <ul class="list-inline">
-                                  <li><b>Date:</b> Fall 2019</li>
-                                  <li><b>Course:</b> Advanced Graphics and Interaction</li>
-                                  <li><b>Tools:</b> Unity</li>
-                                  <li><b>Category:</b> Programming, VR</li>
-                                  <li><a href="http://sofiablomgren.com/FintasticWebsite/" target="_blank">Fintastic website</a></li>
-                                </ul>
+                        <div class="ev-modal-right">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Fintastic</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Fintastic was created as a school project and is a Virtual Reality game taking place in a beautiful underwater environment at the bottom of the ocean. The player uses a net to catch different fish, which they then collect in a basket next to them.</p>
+                                <video width="400" controls poster="/images/engineering/fintastic.png">
+                                    <source src="/videos/FintasticDemo.mp4" type="video/mp4"/>
+                                </video>
+                                <div class="modal-footer">
+                                    <ul class="list-inline">
+                                    <li><b>Date:</b> Fall 2019</li>
+                                    <li><b>Course:</b> Advanced Graphics and Interaction</li>
+                                    <li><b>Tools:</b> Unity</li>
+                                    <li><b>Category:</b> Programming, VR</li>
+                                    <li><a href="http://sofiablomgren.com/FintasticWebsite/" target="_blank">Fintastic website</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -96,24 +101,29 @@ function EngineeringView(props){
 
            {/* OsqledARen Modal */}
            <div class="modal ev-modal" id="modal-osqledaren" tabindex="-1">
-                <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-dialog modal-xl modal-dialog-centered">
                     <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title">OsqledARen</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="ev-modal-left">
+                            <img class="ev-portfolio-item-img" src="/images/engineering/osqledaren.png"></img>
                         </div>
-                        <div class="modal-body">
-                            <p>OsqledARen is a school project in which we created a mobile experience combining AR technology and a printed magazine. The AR functions extended the printed information and gave the readers the possibility to interact with the content in several ways.</p>
-                            <video width="400" controls poster="/images/engineering/osqledaren.png">
-                                <source src="/videos/OsqledARen.mp4" type="video/mp4"/>
-                            </video>
-                            <div class="modal-footer">
-                                <ul class="list-inline">
-                                  <li><b>Date:</b> Fall 2018</li>
-                                  <li><b>Course:</b> Multimodal Interaction and Interfaces</li>
-                                  <li><b>Tools:</b> Unity, Vuforia</li>
-                                  <li><b>Category:</b> Programming, AR</li>
-                                </ul>
+                        <div class="ev-modal-right">
+                            <div class="modal-header">
+                                <h5 class="modal-title">OsqledARen</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>OsqledARen is a school project in which we created a mobile experience combining AR technology and a printed magazine. The AR functions extended the printed information and gave the readers the possibility to interact with the content in several ways.</p>
+                                <video width="400" controls poster="/images/engineering/osqledaren.png">
+                                    <source src="/videos/OsqledARen.mp4" type="video/mp4"/>
+                                </video>
+                                <div class="modal-footer">
+                                    <ul class="list-inline">
+                                    <li><b>Date:</b> Fall 2018</li>
+                                    <li><b>Course:</b> Multimodal Interaction and Interfaces</li>
+                                    <li><b>Tools:</b> Unity, Vuforia</li>
+                                    <li><b>Category:</b> Programming, AR</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -122,24 +132,29 @@ function EngineeringView(props){
 
            {/* Scrollr Modal */}
            <div class="modal ev-modal" id="modal-scrollr" tabindex="-1">
-                <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-dialog modal-xl modal-dialog-centered">
                     <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title">Scrollr</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="ev-modal-left">
+                            <img class="ev-portfolio-item-img" src="/images/engineering/scrollr.png"></img>
                         </div>
-                        <div class="modal-body">
-                            <p>This is a school project in which we were supposed to improve the interaction of an already existing app. We created Scrollr, a prototype of a function that lets you scroll the feed in apps by tilting your phone.</p>
-                            <video width="400" controls poster="/images/engineering/scrollr.png">
-                                <source src="/videos/Scrollr.mp4" type="video/mp4"/>
-                            </video>
-                            <div class="modal-footer">
-                                <ul class="list-inline">
-                                  <li><b>Date:</b> Fall 2018</li>
-                                  <li><b>Course:</b> Media Technology and Interaction Design</li>
-                                  <li><b>Tools:</b> Xcode</li>
-                                  <li><b>Category:</b> Interaction design</li>
-                                </ul>
+                        <div class="ev-modal-right">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Scrollr</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>This is a school project in which we were supposed to improve the interaction of an already existing app. We created Scrollr, a prototype of a function that lets you scroll the feed in apps by tilting your phone.</p>
+                                <video width="400" controls poster="/images/engineering/scrollr.png">
+                                    <source src="/videos/Scrollr.mp4" type="video/mp4"/>
+                                </video>
+                                <div class="modal-footer">
+                                    <ul class="list-inline">
+                                    <li><b>Date:</b> Fall 2018</li>
+                                    <li><b>Course:</b> Media Technology and Interaction Design</li>
+                                    <li><b>Tools:</b> Xcode</li>
+                                    <li><b>Category:</b> Interaction design</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -148,23 +163,28 @@ function EngineeringView(props){
 
            {/* Color Perception Modal */}
            <div class="modal ev-modal" id="modal-perception" tabindex="-1">
-                <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-dialog modal-xl modal-dialog-centered">
                     <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title">Color Perception</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="ev-modal-left">
+                            <img class="ev-portfolio-item-img" src="/images/engineering/perception.png"></img>
                         </div>
-                        <div class="modal-body">
-                            <p>This is a research about how different color combinations are perceived on the web.</p>
-                            <img src="/images/engineering/perception.png"></img>
-                            <div class="modal-footer">
-                                <ul class="list-inline">
-                                  <li><b>Date:</b> Fall 2018</li>
-                                  <li><b>Course:</b> Human Perception for Information Technology</li>
-                                  <li><b>Category:</b> Theory</li>
-                                  <li><a href="pdf/DT2350_PerceptionPoster.pdf" target="_blank">Project poster</a></li>
-                                  <li><a href="pdf/DT2350_PerceptionReport.pdf" target="_blank">Project report</a></li>
-                                </ul>
+                        <div class="ev-modal-right">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Color Perception</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>This is a research about how different color combinations are perceived on the web and how they affect the user's feeling toward a website.</p>
+                                {/* <img src="/images/engineering/perception.png"></img> */}
+                                <div class="modal-footer">
+                                    <ul class="list-inline">
+                                    <li><b>Date:</b> Fall 2018</li>
+                                    <li><b>Course:</b> Human Perception for Information Technology</li>
+                                    <li><b>Category:</b> Theory</li>
+                                    <li><a href="pdf/DT2350_PerceptionPoster.pdf" target="_blank">Project poster</a></li>
+                                    <li><a href="pdf/DT2350_PerceptionReport.pdf" target="_blank">Project report</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -173,22 +193,27 @@ function EngineeringView(props){
 
            {/* Bachelor Thesis Modal */}
            <div class="modal ev-modal" id="modal-bachelor" tabindex="-1">
-                <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-dialog modal-xl modal-dialog-centered">
                     <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title">Bachelor Thesis</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="ev-modal-left">
+                            <img class="ev-portfolio-item-img" src="/images/engineering/kex.png"></img>
                         </div>
-                        <div class="modal-body">
-                            <p>In our bachelor thesis we exlored the memory technique called Method of Loci and looked at if it could be beneficial to combine this method with VR.</p>
-                            <img src="/images/engineering/kex.png"></img>
-                            <div class="modal-footer">
-                                <ul class="list-inline">
-                                  <li><b>Date:</b> Spring 2018</li>
-                                  <li><b>Tools:</b> Unity, Blender</li>
-                                  <li><b>Category:</b> Theory, VR</li>
-                                  <li><a href="pdf/BachelorThesis.pdf" target="_blank">Thesis report</a></li>
-                                </ul>
+                        <div class="ev-modal-right">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Bachelor Thesis</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>In our bachelor thesis we exlored the memory technique called Method of Loci and looked at if it could be beneficial to combine this method with VR.</p>
+                                {/* <img src="/images/engineering/kex.png"></img> */}
+                                <div class="modal-footer">
+                                    <ul class="list-inline">
+                                    <li><b>Date:</b> Spring 2018</li>
+                                    <li><b>Tools:</b> Unity, Blender</li>
+                                    <li><b>Category:</b> Theory, VR</li>
+                                    <li><a href="pdf/BachelorThesis.pdf" target="_blank">Thesis report</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
