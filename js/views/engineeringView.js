@@ -6,38 +6,59 @@ function EngineeringView(props){
             <div class="flex-container">
                 <div class="flex-column">
                     <div class="flex-row">
-                        <div class="flex-item ev-portfolio-item ev-overlay" data-bs-toggle="modal" data-bs-target="#modal-fintastic">
-                            <img class="pv-img" src="/images/engineering/fintastic.png"></img>
+                        <div class="flex-item ev-portfolio-item" data-bs-toggle="modal" data-bs-target="#modal-fintastic">
+                            <img class="ev-portfolio-item-img" src="/images/engineering/fintastic.png"></img>
+                            {/* <div class="ev-portfolio-item-title">Fintastic</div> */}
+                            <div class="ev-hover-overlay">
+                                <p class="ev-portfolio-item-open">OPEN</p>
+                                <div class="ev-portfolio-item-title">Fintastic</div>
+                            </div>
                         </div>
                         <div class="flex-item ev-portfolio-item" data-bs-toggle="modal" data-bs-target="#modal-osqledaren">
-                            <img class="pv-img" src="/images/engineering/osqledaren.png"></img>
+                            <img class="ev-portfolio-item-img" src="/images/engineering/osqledaren.png"></img>
+                            <div class="ev-hover-overlay">
+                                <p class="ev-portfolio-item-open">OPEN</p>
+                                <div class="ev-portfolio-item-title">OsqledARen</div>
+                            </div>
                         </div>
                         <div class="flex-item ev-portfolio-item" data-bs-toggle="modal" data-bs-target="#modal-scrollr">
-                            <img class="pv-img" src="/images/engineering/scrollr.png"></img>
+                            <img class="ev-portfolio-item-img" src="/images/engineering/scrollr.png"></img>
+                            <div class="ev-hover-overlay">
+                                <p class="ev-portfolio-item-open">OPEN</p>
+                                <div class="ev-portfolio-item-title">Scrollr</div>
+                            </div>
                         </div>
                     </div>
 
                     <div class="flex-row">
                         <div class="flex-item ev-portfolio-item" data-bs-toggle="modal" data-bs-target="#modal-perception">
-                            <img class="pv-img" src="/images/engineering/perception.png"></img>
+                            <img class="ev-portfolio-item-img" src="/images/engineering/perception.png"></img>
+                            <div class="ev-hover-overlay">
+                                <p class="ev-portfolio-item-open">OPEN</p>
+                                <div class="ev-portfolio-item-title">Color Perception</div>
+                            </div>
                         </div>
                         <div class="flex-item ev-portfolio-item" data-bs-toggle="modal" data-bs-target="#modal-bachelor">
-                            <img class="pv-img" src="/images/engineering/kex.png"></img>
+                            <img class="ev-portfolio-item-img" src="/images/engineering/kex.png"></img>
+                            <div class="ev-hover-overlay">
+                                <p class="ev-portfolio-item-open">OPEN</p>
+                                <div class="ev-portfolio-item-title">Bachelor Thesis</div>
+                            </div>
                         </div>
 {/*                         <div class="flex-item ev-portfolio-item" data-bs-toggle="modal" data-bs-target="#modal-fintastic">
-                            <img class="pv-img" src="/images/engineering/budapest.png"></img>
+                            <img class="ev-portfolio-item-img" src="/images/engineering/budapest.png"></img>
                         </div> */}
                     </div>
 
 {/*                     <div class="flex-row">
                         <div class="flex-item ev-portfolio-item" data-bs-toggle="modal" data-bs-target="#modal-fintastic">
-                            <img class="pv-img" src="/images/engineering/fintastic.png"></img>
+                            <img class="ev-portfolio-item-img" src="/images/engineering/fintastic.png"></img>
                         </div>
                         <div class="flex-item ev-portfolio-item" data-bs-toggle="modal" data-bs-target="#modal-fintastic">
-                            <img class="pv-img" src="/images/engineering/osqledaren.png"></img>
+                            <img class="ev-portfolio-item-img" src="/images/engineering/osqledaren.png"></img>
                         </div>
                         <div class="flex-item ev-portfolio-item" data-bs-toggle="modal" data-bs-target="#modal-fintastic">
-                            <img class="pv-img" src="/images/engineering/scrollr.png"></img>
+                            <img class="ev-portfolio-item-img" src="/images/engineering/scrollr.png"></img>
                         </div>
                     </div> */}
                 </div>
@@ -138,10 +159,9 @@ function EngineeringView(props){
                             <img src="/images/engineering/perception.png"></img>
                             <div class="modal-footer">
                                 <ul class="list-inline">
-                                  <li><b>Date:</b> Fall 2019</li>
-                                  <li><b>Course:</b> Advanced Graphics and Interaction</li>
-                                  <li><b>Tools:</b> Unity</li>
-                                  <li><b>Category:</b> Programming, VR</li>
+                                  <li><b>Date:</b> Fall 2018</li>
+                                  <li><b>Course:</b> Human Perception for Information Technology</li>
+                                  <li><b>Category:</b> Theory</li>
                                   <li><a href="pdf/DT2350_PerceptionPoster.pdf" target="_blank">Project poster</a></li>
                                   <li><a href="pdf/DT2350_PerceptionReport.pdf" target="_blank">Project report</a></li>
                                 </ul>
