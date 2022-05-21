@@ -6,10 +6,13 @@ function PhotographyView(props){
 
                 <ul class="nav nav-tabs" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" data-bs-toggle="tab" href="#tab-concerts">Concerts</a>
+                        <a class="nav-link active" data-bs-toggle="tab" href="#tab-concerts">Concert</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="tab" href="#tab-weddings">Weddings</a>
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-weddings">Wedding</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-event">Event</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-bs-toggle="tab" href="#tab-published">Published</a>
@@ -18,6 +21,7 @@ function PhotographyView(props){
                         <a class="nav-link" data-bs-toggle="tab" href="#tab-other">Other</a>
                     </li>
                 </ul>
+
 
                 <div class="tab-content">
                     <div class="tab-pane container tabContent active" id="tab-concerts">
@@ -82,7 +86,7 @@ function PhotographyView(props){
 
                     <div class="tab-pane container tabContent" id="tab-weddings">
 
-                    <div class="pv-row">
+                        <div class="pv-row">
                             <div class="pv-column">
                                 <img src="/images/photography/weddings/wedding_ja_3_2048px.jpg"></img>
                                 <img src="/images/photography/weddings/wedding_is_3_2048px.jpg"></img>
@@ -125,20 +129,60 @@ function PhotographyView(props){
 
                     </div>
 
+                    <div class="tab-pane container tabContent" id="tab-event">
+
+                        <div class="pv-row">
+                            <div class="pv-column">
+                                <img src="/images/photography/event/Grammis22_Cornelia_2048px.jpg"></img>
+                                <img src="/images/photography/event/P3Guld21_TribeFriday_2048px.jpg"></img>
+
+                                <img src="/images/photography/event/Grammis22_Sarah_2048px.jpg"></img>
+                                <img src="/images/photography/event/Grammis22_Alba_2048px.jpg"></img>
+                                <img src="/images/photography/event/Rockbjornen21_Benjamin_2048px.jpg"></img>
+                            </div>
+                            <div class="pv-column">
+                                <img src="/images/photography/event/Rockbjornen21_Vinnarna_2048px.jpg"></img>
+                                <img src="/images/photography/event/Grammis22_MiriamVictor_2048px.jpg"></img>
+                                <img src="/images/photography/event/Rockbjornen21_Omar_2048px.jpg"></img>
+                                <img src="/images/photography/event/P3Guld21_Hov1_2048px.jpg"></img>
+                                <img src="/images/photography/event/Grammis22_KristoferEfva_2048px.jpg"></img>
+                            </div>
+                            <div class="pv-column">
+                                <img src="/images/photography/event/P3Guld21_Zara_2048px.jpg"></img>
+                                <img src="/images/photography/event/Grammis22_Benjamin_2048px.jpg"></img>
+                                <img src="/images/photography/event/Grammis22_Molly_2048px.jpg"></img>
+                                <img src="/images/photography/event/P3Guld21_OscarEmma_2048px.jpg"></img>
+                                <img src="/images/photography/event/Rockbjornen21_EdvinOmar_2048px.jpg"></img>
+                                
+                            </div>
+                            <div class="pv-column">
+                                <img src="/images/photography/event/Grammis22_Daniela_2048px.jpg"></img>
+                                <img src="/images/photography/event/Grammis22_Peg_2048px.jpg"></img>
+                                <img src="/images/photography/event/Rockbjornen21_Molly_2048px.jpg"></img>
+                                <img src="/images/photography/event/P3Guld21_Victor_2048px.jpg"></img>
+                                <img src="/images/photography/event/Rockbjornen21_Edvin_2048px.jpg"></img>
+                            </div>
+                        </div>
+                        
+                    </div>
+
                     <div class="tab-pane container tabContent" id="tab-published">
 
-                    <div class="pv-row">
+                        <div class="pv-row">
                             <div class="pv-column">
-                                <img src="/images/photography/2048/JacobBanks_2048px.jpg"></img>
+                                <img src="/images/photography/published/Spotify_ICF.png"></img>
                             </div>
                             <div class="pv-column">
-                                <img src="/images/photography/2048/BMTH_2048px.jpg"></img>
+                                <img src="/images/photography/published/Spotify_BIB.jpg"></img>
                             </div>
                             <div class="pv-column">
-                                <img src="/images/photography/2048/FlorenceAndTheMachine_2048px.jpg"></img>
+                                <img src="/images/photography/published/KB_1_2048px.jpg"></img>
+                                <img src="/images/photography/published/KB_3_2048px.jpg"></img>
+                                <img src="/images/photography/published/KB_5_2048px.jpg"></img>
                             </div>
                             <div class="pv-column">
-                                <img src="/images/photography/2048/LennyKravitz_2048px.jpg"></img>
+                                <img src="/images/photography/published/KB_2_2048px.jpg"></img>
+                                <img src="/images/photography/published/KB_4_2048px.jpg"></img>
                             </div>
                         </div>
 
@@ -148,16 +192,23 @@ function PhotographyView(props){
 
                     <div class="pv-row">
                             <div class="pv-column">
-                                <img src="/images/photography/2048/JacobBanks_2048px.jpg"></img>
+                                <img src="/images/photography/other/Linnea2_2048px.jpg"></img>
+                                <img src="/images/photography/other/Linnea_2048px.jpg"></img>
+                                
                             </div>
                             <div class="pv-column">
-                                <img src="/images/photography/2048/BMTH_2048px.jpg"></img>
+                                <img src="/images/photography/other/Workshop2_2048px.jpg"></img>
+                                <img src="/images/photography/other/Katthem_2048px.jpg"></img>
+                                <img src="/images/photography/other/Workshop_2048px.jpg"></img>
                             </div>
                             <div class="pv-column">
-                                <img src="/images/photography/2048/FlorenceAndTheMachine_2048px.jpg"></img>
+                                <img src="/images/photography/other/Amy_2048px.jpg"></img>
+                                <img src="/images/photography/other/Rebecka2_2048px.jpg"></img>
                             </div>
                             <div class="pv-column">
-                                <img src="/images/photography/2048/LennyKravitz_2048px.jpg"></img>
+                                <img src="/images/photography/other/Rebecka3_2048px.jpg"></img>
+                                <img src="/images/photography/other/Rebecka_2048px.jpg"></img>
+
                             </div>
                         </div>
 
