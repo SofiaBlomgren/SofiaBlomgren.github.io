@@ -170,10 +170,10 @@ function PhotographyView(props){
 
                         <div class="pv-row">
                             <div class="pv-column">
-                                <img src="/images/photography/published/Spotify_ICF.png"></img> 
+                                <img src="/images/photography/published/Spotify_ICF.PNG"></img>
                             </div>
                             <div class="pv-column">
-                                <img src="/images/photography/published/Spotify_BIB.jpg"></img>
+                                <img src="/images/photography/published/Spotify_BIB.JPG"></img>
                             </div>
                             <div class="pv-column">
                                 <img src="/images/photography/published/KB_1_2048px.jpg"></img>
