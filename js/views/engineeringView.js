@@ -6,6 +6,13 @@ function EngineeringView(props){
             <div class="flex-container">
                 <div class="flex-column">
                     <div class="flex-row">
+                        <div class="flex-item ev-portfolio-item" data-bs-toggle="modal" data-bs-target="#modal-master">
+                            <img class="ev-portfolio-item-img" src="/images/engineering/exjobb.png"></img>
+                            <div class="ev-hover-overlay">
+                                <p class="ev-portfolio-item-open">OPEN</p>
+                                <div class="ev-portfolio-item-title">Master Thesis</div>
+                            </div>
+                        </div>
                         <div class="flex-item ev-portfolio-item" data-bs-toggle="modal" data-bs-target="#modal-fintastic">
                             <img class="ev-portfolio-item-img" src="/images/engineering/fintastic.png"></img>
                             {/* <div class="ev-portfolio-item-title">Fintastic</div> */}
@@ -21,6 +28,9 @@ function EngineeringView(props){
                                 <div class="ev-portfolio-item-title">OsqledARen</div>
                             </div>
                         </div>
+                    </div>
+
+                    <div class="flex-row">
                         <div class="flex-item ev-portfolio-item" data-bs-toggle="modal" data-bs-target="#modal-scrollr">
                             <img class="ev-portfolio-item-img" src="/images/engineering/scrollr.png"></img>
                             <div class="ev-hover-overlay">
@@ -28,9 +38,6 @@ function EngineeringView(props){
                                 <div class="ev-portfolio-item-title">Scrollr</div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="flex-row">
                         <div class="flex-item ev-portfolio-item" data-bs-toggle="modal" data-bs-target="#modal-perception">
                             <img class="ev-portfolio-item-img" src="/images/engineering/perception.png"></img>
                             <div class="ev-hover-overlay">
@@ -221,23 +228,28 @@ function EngineeringView(props){
             </div>
 
            {/* Master Thesis Modal */}
-           <div class="modal ev-modal" id="modal-bachelor" tabindex="-1">
-                <div class="modal-dialog modal-dialog-centered">
+           <div class="modal ev-modal" id="modal-master" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
                     <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title">Bachelor Thesis</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="ev-modal-left">
+                            <img class="ev-portfolio-item-img" src="/images/engineering/exjobb.png"></img>
                         </div>
-                        <div class="modal-body">
-                            <p>In our bachelor thesis we exlored the memory technique called Method of Loci and looked at if it could be beneficial to combine this method with VR.</p>
-                            <img src="/images/engineering/kex.png"></img>
-                            <div class="modal-footer">
-                                <ul class="list-inline">
-                                  <li><b>Date:</b> Spring 2018</li>
-                                  <li><b>Tools:</b> Unity, Blender</li>
-                                  <li><b>Category:</b> Theory, VR</li>
-                                  <li><a href="pdf/BachelorThesis.pdf" target="_blank">Thesis report</a></li>
-                                </ul>
+                        <div class="ev-modal-right">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Master Thesis</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>In my master thesis I exlored different grasping techniques with hand tracking in virtual reality, and their effect on the sense of presence.</p>
+                                {/* <img src="/images/engineering/kex.png"></img> */}
+                                <div class="modal-footer">
+                                    <ul class="list-inline">
+                                    <li><b>Date:</b> 2020</li>
+                                    <li><b>Tools:</b> Unity</li>
+                                    <li><b>Category:</b> Theory, VR</li>
+                                    <li><a href="pdf/MasterThesis.pdf" target="_blank">Thesis report</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
