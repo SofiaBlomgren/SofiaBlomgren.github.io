@@ -21,10 +21,10 @@ function AboutView(props){
                                 <div class="av-contact-title">Contact</div>
                                 <div>
                                     <ul class="list-inline">
-                                    <li><b>Email (engineer): </b>sofiablo@kth.se</li>
+                                    <li><b>Email (engineer): </b>sofia.im.blomgren@gmail.com</li>
                                     <li><b>Email (photo): </b>sofiablomgrenphoto@gmail.com</li>
                                     <li><b>Phone: </b>+46 (0)70-692 87 11</li>
-                                    {/* <li><a href="/pdf/SofiaBlomgren_CV.pdf" target="_blank">View CV</a></li> */}
+                                    <li><a href="/pdf/SofiaBlomgren_CV.pdf" target="_blank">View CV</a></li>
                                     </ul>
                                     <a href="https://www.linkedin.com/in/sofiablomgren/" target="_blank"><img class="av-icon" src="/images/icon_linkedin.png"></img></a>
                                     <a href="https://www.instagram.com/sofiablomgrenphoto/" target="_blank"><img class="av-icon" src="/images/icon_instagram.png"></img></a>
