@@ -21,16 +21,24 @@ function EngineeringView(props){
                                 <div class="ev-portfolio-item-title">Fintastic</div>
                             </div>
                         </div>
-                        <div class="flex-item ev-portfolio-item" data-bs-toggle="modal" data-bs-target="#modal-osqledaren">
+                        <div class="flex-item ev-portfolio-item" data-bs-toggle="modal" data-bs-target="#modal-bfb">
+                            <img class="ev-portfolio-item-img" src="/images/engineering/bfb.png"></img>
+                            {/* <div class="ev-portfolio-item-title">Fintastic</div> */}
+                            <div class="ev-hover-overlay">
+                                <p class="ev-portfolio-item-open">OPEN</p>
+                                <div class="ev-portfolio-item-title">Burn Forest Burn</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex-row">
+                    <div class="flex-item ev-portfolio-item" data-bs-toggle="modal" data-bs-target="#modal-osqledaren">
                             <img class="ev-portfolio-item-img" src="/images/engineering/osqledaren.png"></img>
                             <div class="ev-hover-overlay">
                                 <p class="ev-portfolio-item-open">OPEN</p>
                                 <div class="ev-portfolio-item-title">OsqledARen</div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="flex-row">
                         <div class="flex-item ev-portfolio-item" data-bs-toggle="modal" data-bs-target="#modal-scrollr">
                             <img class="ev-portfolio-item-img" src="/images/engineering/scrollr.png"></img>
                             <div class="ev-hover-overlay">
@@ -45,6 +53,12 @@ function EngineeringView(props){
                                 <div class="ev-portfolio-item-title">Color Perception</div>
                             </div>
                         </div>
+{/*                         <div class="flex-item ev-portfolio-item" data-bs-toggle="modal" data-bs-target="#modal-fintastic">
+                            <img class="ev-portfolio-item-img" src="/images/engineering/budapest.png"></img>
+                        </div> */}
+                    </div>
+
+                    <div class="flex-row">
                         <div class="flex-item ev-portfolio-item" data-bs-toggle="modal" data-bs-target="#modal-bachelor">
                             <img class="ev-portfolio-item-img" src="/images/engineering/kex.png"></img>
                             <div class="ev-hover-overlay">
@@ -52,9 +66,6 @@ function EngineeringView(props){
                                 <div class="ev-portfolio-item-title">Bachelor Thesis</div>
                             </div>
                         </div>
-{/*                         <div class="flex-item ev-portfolio-item" data-bs-toggle="modal" data-bs-target="#modal-fintastic">
-                            <img class="ev-portfolio-item-img" src="/images/engineering/budapest.png"></img>
-                        </div> */}
                     </div>
 
 {/*                     <div class="flex-row">
@@ -98,6 +109,38 @@ function EngineeringView(props){
                                     <li><b>Tools:</b> Unity</li>
                                     <li><b>Category:</b> Programming, VR</li>
                                     <li><a href="http://sofiablomgren.com/FintasticWebsite/" target="_blank">Fintastic website</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           {/* BFB Modal */}
+           <div class="modal ev-modal" id="modal-bfb" tabindex="-1">
+                <div class="modal-dialog modal-xl modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="ev-modal-left">
+                            <img class="ev-portfolio-item-img" src="/images/engineering/bfb.png"></img>
+                        </div>
+                        <div class="ev-modal-right">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Burn Forest Burn</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Burn Forest Burn was created as a school project and is an Augmented Reality game for two players. One player chops down trees to collect wood for building houses, while the other player burns down trees to create farmland for their cows. First player to remove all their trees wins.</p>
+                                <video width="400" controls poster="/images/engineering/bfb.png">
+                                    <source src="/videos/BFBDemo.mp4" type="video/mp4"/>
+                                </video>
+                                <div class="modal-footer">
+                                    <ul class="list-inline">
+                                    <li><b>Date:</b> Fall 2019</li>
+                                    <li><b>Course:</b> Advanced Graphics and Interaction</li>
+                                    <li><b>Tools:</b> Unity, Vuforia, Blender</li>
+                                    <li><b>Category:</b> Programming, AR</li>
+                                    <li><a href="http://sofiablomgren.com/BurnForestBurnWebsite/" target="_blank">Burn Forest Burn website</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -240,7 +283,7 @@ function EngineeringView(props){
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <p>In my master thesis I exlored different grasping techniques with hand tracking in virtual reality, and their effect on the sense of presence.</p>
+                                <p>In my master thesis I explored different grasping techniques with hand tracking in virtual reality, and their effect on the sense of presence.</p>
                                 {/* <img src="/images/engineering/kex.png"></img> */}
                                 <div class="modal-footer">
                                     <ul class="list-inline">

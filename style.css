@@ -93,8 +93,10 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 0vh;
-    overflow: hidden;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 30vh;
+    padding-bottom: 6vh;
 }
 
 .ev-portfolio-item{
