@@ -146,33 +146,43 @@ function PhotographyView(props){
                         <div class="pv-row">
                             <div class="pv-column">
                                 <img src="/images/photography/event/Grammis22_Cornelia_2048px.jpg"></img>
-                                <img src="/images/photography/event/P3Guld21_TribeFriday_2048px.jpg"></img>
-
+                                <img src="/images/photography/event/Idol21_KatiaKishti_2048px.jpg"></img>
                                 <img src="/images/photography/event/Grammis22_Sarah_2048px.jpg"></img>
-                                <img src="/images/photography/event/Grammis22_Alba_2048px.jpg"></img>
+                                <img src="/images/photography/event/Idol22_Katia_2048px.jpg"></img>
                                 <img src="/images/photography/event/Rockbjornen21_Benjamin_2048px.jpg"></img>
+                                <img src="/images/photography/event/Idol22_Top11_2048px.jpg"></img>
+                                <img src="/images/photography/event/Rockbjornen22_LisaNimraTanja_2048px.jpg"></img>
+                                <img src="/images/photography/event/P3Guld21_Hov1_2048px.jpg"></img>
                             </div>
                             <div class="pv-column">
                                 <img src="/images/photography/event/Rockbjornen21_Vinnarna_2048px.jpg"></img>
                                 <img src="/images/photography/event/Grammis22_MiriamVictor_2048px.jpg"></img>
                                 <img src="/images/photography/event/Rockbjornen21_Omar_2048px.jpg"></img>
-                                <img src="/images/photography/event/P3Guld21_Hov1_2048px.jpg"></img>
+                                <img src="/images/photography/event/P3Guld21_TribeFriday_2048px.jpg"></img>
+                                <img src="/images/photography/event/Idol22_Nike_2048px.jpg"></img>
                                 <img src="/images/photography/event/Grammis22_KristoferEfva_2048px.jpg"></img>
+                                <img src="/images/photography/event/Idol21_Selfie_2048px.jpg"></img>
+                                <img src="/images/photography/event/Grammis22_Alba_2048px.jpg"></img>
                             </div>
                             <div class="pv-column">
                                 <img src="/images/photography/event/P3Guld21_Zara_2048px.jpg"></img>
+                                <img src="/images/photography/event/Rockbjornen22_MarcusMartinus_2048px.jpg"></img>
+                                <img src="/images/photography/event/Idol22_Albin_2048px.jpg"></img>
+                                <img src="/images/photography/event/Rockbjornen21_EdvinOmar_2048px.jpg"></img>
                                 <img src="/images/photography/event/Grammis22_Benjamin_2048px.jpg"></img>
                                 <img src="/images/photography/event/Grammis22_Molly_2048px.jpg"></img>
                                 <img src="/images/photography/event/P3Guld21_OscarEmma_2048px.jpg"></img>
-                                <img src="/images/photography/event/Rockbjornen21_EdvinOmar_2048px.jpg"></img>
-                                
+                                <img src="/images/photography/event/Idol21_KishtiW_2048px.jpg"></img>
                             </div>
                             <div class="pv-column">
                                 <img src="/images/photography/event/Grammis22_Daniela_2048px.jpg"></img>
-                                <img src="/images/photography/event/Grammis22_Peg_2048px.jpg"></img>
-                                <img src="/images/photography/event/Rockbjornen21_Molly_2048px.jpg"></img>
+                                <img src="/images/photography/event/Idol22_MissLi_2048px.jpg"></img>
                                 <img src="/images/photography/event/P3Guld21_Victor_2048px.jpg"></img>
+                                <img src="/images/photography/event/Idol22_Jury_2048px.jpg"></img>
                                 <img src="/images/photography/event/Rockbjornen21_Edvin_2048px.jpg"></img>
+                                <img src="/images/photography/event/Rockbjornen21_Molly_2048px.jpg"></img>
+                                <img src="/images/photography/event/Idol22_Confetti_2048px.jpg"></img>
+                                <img src="/images/photography/event/Grammis22_Peg_2048px.jpg"></img>
                             </div>
                         </div>
                         
@@ -183,6 +193,7 @@ function PhotographyView(props){
                         <div class="pv-row">
                             <div class="pv-column">
                                 <img src="/images/photography/published/Spotify_ICF.PNG"></img>
+                                <img src="/images/photography/published/Rockbjornen22_Nominations_2048px.jpg"></img>
                             </div>
                             <div class="pv-column">
                                 <img src="/images/photography/published/Spotify_BIB.JPG"></img>
