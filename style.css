@@ -278,12 +278,14 @@ body{
     background-color: rgba(0, 0, 0, .9);
     text-align: center;
     text-justify: center;
+    cursor: pointer;
 }
 
 #FullImage {
     padding: 5vh;
     max-width: 98vw;
     max-height: 98vh;
+    cursor: default;
 }
 
 #CloseButton {
@@ -416,7 +418,7 @@ body{
     height: 100%;
     padding-left: 5vw;
     padding-right: 5vw;
-    padding-top: 10vh;
+    padding-top: 8vh;
     padding-bottom: 6vh;
 }
 

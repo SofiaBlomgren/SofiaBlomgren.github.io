@@ -241,7 +241,7 @@ function PhotographyView(props){
 
             </div>
 
-            <div id="FullImageView">
+            <div id="FullImageView" onclick="closeFullView()">
                 <img id="FullImage"></img>
                 <span id="CloseButton" onclick="closeFullView()">X</span>
             </div>
