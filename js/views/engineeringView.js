@@ -99,7 +99,7 @@ function EngineeringView(props){
                             </div>
                             <div class="modal-body">
                                 <p>Fintastic was created as a school project and is a Virtual Reality game taking place in a beautiful underwater environment at the bottom of the ocean. The player uses a net to catch different fish, which they then collect in a basket next to them.</p>
-                                <video width="400" controls poster="/images/engineering/fintastic.png">
+                                 <video width="400" controls poster="/images/engineering/fintastic.png">
                                     <source src="/videos/FintasticDemo.mp4" type="video/mp4"/>
                                 </video>
                                 <div class="modal-footer">

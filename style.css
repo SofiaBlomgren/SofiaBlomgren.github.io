@@ -260,12 +260,56 @@ body{
     vertical-align: middle;
     max-width: 100%;
   }
+
+  .pv-column img:hover {
+      cursor: pointer;
+      filter: brightness(60%);
+      transition: 0.2s ease-in-out;
+  }
+
+  #FullImageView {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .9);
+    text-align: center;
+    text-justify: center;
+}
+
+#FullImage {
+    padding: 5vh;
+    max-width: 98vw;
+    max-height: 98vh;
+}
+
+#CloseButton {
+    position: fixed;
+    top: 1vh;
+    right: 1vw;
+    font-size: 6vh 6vw;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+
+}
+
+#ImageInfo {
+    position: absolute;
+    font-size: 600px;
+    color: white;
+
+}
   
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 800px) {
     .pv-column {
       flex: 50%;
       max-width: 50%;
+      pointer-events: none;
+      cursor: default;
     }
   }
   
@@ -274,6 +318,8 @@ body{
     .pv-column {
       flex: 100%;
       max-width: 100%;
+      pointer-events: none;
+      cursor: default;
     }
   }
 
@@ -397,6 +443,7 @@ body{
     width: 1.4em;
     margin-right: 0.4em;
 }
+
 
 /*
 

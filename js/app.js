@@ -24,3 +24,17 @@ function defaultRoute(){
 defaultRoute(); // when the application loads, set the default route!
 
 window.addEventListener("hashchange", e => defaultRoute());
+
+
+function fullView(ImgLink, AltTxt) {
+    document.getElementById("FullImage").src = ImgLink;
+    document.getElementById("FullImageView").style.display = "block";
+}
+
+function closeFullView() {
+    document.getElementById("FullImageView").style.display = "none";
+}
+
+
+
+/*    document.getElementById("ImageInfo").alt = AltTxt;*/
