@@ -22,7 +22,7 @@
     flex-direction: column;
 }
 
-@media (max-width:600px){  
+@media (max-width:1000px){  
     .flex-container{
         display: flex;
         flex-direction:column;
@@ -379,13 +379,22 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 2.6rem;
+    font-size: 2.4rem;
 }
 
 .portfolio-card:hover{
     transform: scale(1.1);
     cursor: pointer;
 }
+
+
+  @media screen and (max-width: 1000px) {
+    .portfolio-card{
+        margin: 4vw;
+        width: 70vw;
+        height: 70vw;
+    }
+  }
     
 
 /* Bootstrap overrides*/

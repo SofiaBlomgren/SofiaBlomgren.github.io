@@ -26,7 +26,7 @@ defaultRoute(); // when the application loads, set the default route!
 window.addEventListener("hashchange", e => defaultRoute());
 
 
-function fullView(ImgLink, AltTxt) {
+function fullView(ImgLink) {
     document.getElementById("FullImage").src = ImgLink;
     document.getElementById("FullImageView").style.display = "block";
 }
@@ -37,4 +37,10 @@ function closeFullView() {
 
 
 
-/*    document.getElementById("ImageInfo").alt = AltTxt;*/
+/*
+
+document.getElementById("ImageInfo").alt = AltTxt;
+
+document.getElementById("ImageInfo").title = ImgTxt;
+
+*/
