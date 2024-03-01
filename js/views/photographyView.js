@@ -83,41 +83,40 @@ function PhotographyView(props){
 
                         <div class="pv-row">
                             <div class="pv-column">
-                                <img src="/images/photography/weddings/wedding_ja_3_2048px.jpg" onclick="fullView(this.src)"></img>
-                                <img src="/images/photography/weddings/wedding_is_3_2048px.jpg" onclick="fullView(this.src)"></img>
-                                <img src="/images/photography/weddings/wedding_pc_6_2048px.jpg" onclick="fullView(this.src)"></img>
-                                <img src="/images/photography/weddings/wedding_ja_6_2048px.jpg" onclick="fullView(this.src)"></img>
-                                <img src="/images/photography/weddings/wedding_is_4_2048px.jpg" onclick="fullView(this.src)"></img>
-                                <img src="/images/photography/weddings/wedding_ja_8_2048px.jpg" onclick="fullView(this.src)"></img>
-                                <img src="/images/photography/weddings/wedding_cm_2_2048px.jpg" onclick="fullView(this.src)"></img> 
+                                <img id="GalleryImage" src="/images/photography/weddings/600/wedding_ja_3_600px.jpg"  data-img="/images/photography/weddings/2048/wedding_ja_3_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
+                                <img id="GalleryImage" src="/images/photography/weddings/600/wedding_is_3_600px.jpg"  data-img="/images/photography/weddings/2048/wedding_is_3_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
+                                <img id="GalleryImage" src="/images/photography/weddings/600/wedding_pc_6_600px.jpg"  data-img="/images/photography/weddings/2048/wedding_pc_6_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
+                                <img id="GalleryImage" src="/images/photography/weddings/600/wedding_ja_6_600px.jpg"  data-img="/images/photography/weddings/2048/wedding_ja_6_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
+                                <img id="GalleryImage" src="/images/photography/weddings/600/wedding_is_4_600px.jpg"  data-img="/images/photography/weddings/2048/wedding_is_4_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
+                                <img id="GalleryImage" src="/images/photography/weddings/600/wedding_ja_8_600px.jpg"  data-img="/images/photography/weddings/2048/wedding_ja_8_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
+                                <img id="GalleryImage" src="/images/photography/weddings/600/wedding_cm_2_600px.jpg"  data-img="/images/photography/weddings/2048/wedding_cm_2_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
                             </div>
                             <div class="pv-column">
-                                <img src="/images/photography/weddings/wedding_ja_2_2048px.jpg" onclick="fullView(this.src)"></img>
-                                <img src="/images/photography/weddings/wedding_cm_5_2048px.jpg" onclick="fullView(this.src)"></img>
-                                <img src="/images/photography/weddings/wedding_pc_4_2048px.jpg" onclick="fullView(this.src)"></img>
-                                <img src="/images/photography/weddings/wedding_ja_5_2048px.jpg" onclick="fullView(this.src)"></img>
-                                <img src="/images/photography/weddings/wedding_pc_1_2048px.jpg" onclick="fullView(this.src)"></img>
-                                <img src="/images/photography/weddings/wedding_ja_12_2048px.jpg" onclick="fullView(this.src)"></img>
-                                <img src="/images/photography/weddings/wedding_pc_5_2048px.jpg" onclick="fullView(this.src)"></img>
+                                <img id="GalleryImage" src="/images/photography/weddings/600/wedding_ja_2_600px.jpg"  data-img="/images/photography/weddings/2048/wedding_ja_2_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
+                                <img id="GalleryImage" src="/images/photography/weddings/600/wedding_cm_5_600px.jpg"  data-img="/images/photography/weddings/2048/wedding_cm_5_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
+                                <img id="GalleryImage" src="/images/photography/weddings/600/wedding_pc_4_600px.jpg"  data-img="/images/photography/weddings/2048/wedding_pc_4_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
+                                <img id="GalleryImage" src="/images/photography/weddings/600/wedding_ja_5_600px.jpg"  data-img="/images/photography/weddings/2048/wedding_ja_5_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
+                                <img id="GalleryImage" src="/images/photography/weddings/600/wedding_pc_1_600px.jpg"  data-img="/images/photography/weddings/2048/wedding_pc_1_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
+                                <img id="GalleryImage" src="/images/photography/weddings/600/wedding_ja_12_600px.jpg"  data-img="/images/photography/weddings/2048/wedding_ja_12_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
+                                <img id="GalleryImage" src="/images/photography/weddings/600/wedding_pc_5_600px.jpg"  data-img="/images/photography/weddings/2048/wedding_pc_5_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
                             </div>
                             <div class="pv-column">
-                                <img src="/images/photography/weddings/wedding_pc_2_2048px.jpg" onclick="fullView(this.src)"></img>
-                                <img src="/images/photography/weddings/wedding_cm_1_2048px.jpg" onclick="fullView(this.src)"></img>
-                                <img src="/images/photography/weddings/wedding_ja_10_2048px.jpg" onclick="fullView(this.src)"></img>
-                                <img src="/images/photography/weddings/wedding_ja_1_2048px.jpg" onclick="fullView(this.src)"></img>
-                                <img src="/images/photography/weddings/wedding_is_2_2048px.jpg" onclick="fullView(this.src)"></img>
-                                <img src="/images/photography/weddings/wedding_ja_11_2048px.jpg" onclick="fullView(this.src)"></img>
-                                <img src="/images/photography/weddings/wedding_cm_3_2048px.jpg" onclick="fullView(this.src)"></img>
+                                <img id="GalleryImage" src="/images/photography/weddings/600/wedding_pc_2_600px.jpg"  data-img="/images/photography/weddings/2048/wedding_pc_2_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
+                                <img id="GalleryImage" src="/images/photography/weddings/600/wedding_cm_1_600px.jpg"  data-img="/images/photography/weddings/2048/wedding_cm_1_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
+                                <img id="GalleryImage" src="/images/photography/weddings/600/wedding_ja_10_600px.jpg"  data-img="/images/photography/weddings/2048/wedding_ja_10_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
+                                <img id="GalleryImage" src="/images/photography/weddings/600/wedding_ja_1_600px.jpg"  data-img="/images/photography/weddings/2048/wedding_ja_1_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
+                                <img id="GalleryImage" src="/images/photography/weddings/600/wedding_is_2_600px.jpg"  data-img="/images/photography/weddings/2048/wedding_is_2_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
+                                <img id="GalleryImage" src="/images/photography/weddings/600/wedding_ja_11_600px.jpg"  data-img="/images/photography/weddings/2048/wedding_ja_11_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
+                                <img id="GalleryImage" src="/images/photography/weddings/600/wedding_cm_3_600px.jpg"  data-img="/images/photography/weddings/2048/wedding_cm_3_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
                             </div>
                             <div class="pv-column">
-                                <img src="/images/photography/weddings/wedding_pc_7_2048px.jpg" onclick="fullView(this.src)"></img>
-                                
-                                <img src="/images/photography/weddings/wedding_ja_4_2048px.jpg" onclick="fullView(this.src)"></img>
-                                <img src="/images/photography/weddings/wedding_is_1_2048px.jpg" onclick="fullView(this.src)"></img>
-                                <img src="/images/photography/weddings/wedding_ja_7_2048px.jpg" onclick="fullView(this.src)"></img>
-                                <img src="/images/photography/weddings/wedding_ja_9_2048px.jpg" onclick="fullView(this.src)"></img>
-                                <img src="/images/photography/weddings/wedding_cm_6_2048px.jpg" onclick="fullView(this.src)"></img>
-                                <img src="/images/photography/weddings/wedding_pc_8_2048px.jpg" onclick="fullView(this.src)"></img>
+                                <img id="GalleryImage" src="/images/photography/weddings/600/wedding_pc_7_600px.jpg"  data-img="/images/photography/weddings/2048/wedding_pc_7_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
+                                <img id="GalleryImage" src="/images/photography/weddings/600/wedding_ja_4_600px.jpg"  data-img="/images/photography/weddings/2048/wedding_ja_4_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
+                                <img id="GalleryImage" src="/images/photography/weddings/600/wedding_is_1_600px.jpg"  data-img="/images/photography/weddings/2048/wedding_is_1_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
+                                <img id="GalleryImage" src="/images/photography/weddings/600/wedding_ja_7_600px.jpg"  data-img="/images/photography/weddings/2048/wedding_ja_7_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
+                                <img id="GalleryImage" src="/images/photography/weddings/600/wedding_ja_9_600px.jpg"  data-img="/images/photography/weddings/2048/wedding_ja_9_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
+                                <img id="GalleryImage" src="/images/photography/weddings/600/wedding_cm_6_600px.jpg"  data-img="/images/photography/weddings/2048/wedding_cm_6_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
+                                <img id="GalleryImage" src="/images/photography/weddings/600/wedding_pc_8_600px.jpg"  data-img="/images/photography/weddings/2048/wedding_pc_8_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
                             </div>
                         </div>
 
