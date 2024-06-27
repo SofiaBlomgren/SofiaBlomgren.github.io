@@ -31,7 +31,7 @@ function PhotographyView(props){
 
                         <div class="pv-row">
                             <div class="pv-column">
-                                <img id="GalleryImage" title="Zara Larsson" src="/images/photography/600/ZaraLarsson_2_600px.jpg"  data-img="/images/photography/2048/ZaraLarsson_2_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
+                                <img id="GalleryImage" title="Taylor Swift" src="/images/photography/600/TaylorSwift_1_600px.jpg"  data-img="/images/photography/2048/TaylorSwift_1_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
                                 <img id="GalleryImage" title="Sabrina Carpenter" src="/images/photography/600/SabrinaCarpenter_600px.jpg"  data-img="/images/photography/2048/SabrinaCarpenter_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
                                 <img id="GalleryImage" title="Little Dragon" src="/images/photography/600/LittleDragon_600px.jpg"  data-img="/images/photography/2048/LittleDragon_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
                                 <img id="GalleryImage" title="Loreen" src="/images/photography/600/Loreen_2_600px.jpg"  data-img="/images/photography/2048/Loreen_2_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
@@ -42,10 +42,8 @@ function PhotographyView(props){
                                 <img id="GalleryImage" title="Kent" src="/images/photography/600/Kent_600px.jpg"  data-img="/images/photography/2048/Kent_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
                             </div>
                             <div class="pv-column">
-                                
+                                <img id="GalleryImage" title="Paramore" src="/images/photography/600/Paramore_1_600px.jpg"  data-img="/images/photography/2048/Paramore_1_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
                                 <img id="GalleryImage" title="Marcus and Martinus" src="/images/photography/600/MarcusMartinus_600px.jpg"  data-img="/images/photography/2048/MarcusMartinus_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
-                                <img id="GalleryImage" title="James Bay" src="/images/photography/600/JamesBay_1_600px.jpg"  data-img="/images/photography/2048/JamesBay_1_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
-                                <img id="GalleryImage" title="Omar Rudberg" src="/images/photography/600/OmarRudberg_1_600px.jpg"  data-img="/images/photography/2048/OmarRudberg_1_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
                                 <img id="GalleryImage" title="Lorde" src="/images/photography/600/Lorde_600px.jpg"  data-img="/images/photography/2048/Lorde_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
                                 <img id="GalleryImage" title="KISS" src="/images/photography/600/KISS_600px.jpg"  data-img="/images/photography/2048/KISS_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
                                 <img id="GalleryImage" title="Fever Ray" src="/images/photography/600/FeverRay_600px.jpg"  data-img="/images/photography/2048/FeverRay_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
@@ -54,7 +52,7 @@ function PhotographyView(props){
                                 <img id="GalleryImage" title="Alice Cooper" src="/images/photography/600/AliceCooper_600px.jpg"  data-img="/images/photography/2048/AliceCooper_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
                             </div>
                             <div class="pv-column">
-                                <img id="GalleryImage" title="Klara Hammarstrom" src="/images/photography/600/KlaraHammarstrom_600px.jpg"  data-img="/images/photography/2048/KlaraHammarstrom_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
+                                <img id="GalleryImage" title="Omar Rudberg" src="/images/photography/600/OmarRudberg_1_600px.jpg"  data-img="/images/photography/2048/OmarRudberg_1_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
                                 <img id="GalleryImage" title="First Aid Kit" src="/images/photography/600/FirstAidKit_600px.jpg"  data-img="/images/photography/2048/FirstAidKit_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
                                 <img id="GalleryImage" title="Maneskin" src="/images/photography/600/Maneskin_600px.jpg"  data-img="/images/photography/2048/Maneskin_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
                                 <img id="GalleryImage" title="MCR" src="/images/photography/600/MCR_600px.jpg"  data-img="/images/photography/2048/MCR_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
@@ -69,7 +67,7 @@ function PhotographyView(props){
                                 <img id="GalleryImage" title="Benjamin Ingrosso" src="/images/photography/600/BenjaminIngrosso_2_600px.jpg"  data-img="/images/photography/2048/BenjaminIngrosso_2_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
                                 <img id="GalleryImage" title="Sigrid" src="/images/photography/600/Sigrid_600px.jpg"  data-img="/images/photography/2048/Sigrid_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
                                 <img id="GalleryImage" title="Lil Nas X" src="/images/photography/600/LilNasX_600px.jpg"  data-img="/images/photography/2048/LilNasX_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
-                                <img id="GalleryImage" title="Daniel Adams Ray" src="/images/photography/600/DanielAdamsRay_600px.jpg"  data-img="/images/photography/2048/DanielAdamsRay_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
+                                <img id="GalleryImage" title="Klara Hammarstrom" src="/images/photography/600/KlaraHammarstrom_600px.jpg"  data-img="/images/photography/2048/KlaraHammarstrom_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
                                 <img id="GalleryImage" title="Janice" src="/images/photography/600/Janice_600px.jpg"  data-img="/images/photography/2048/Janice_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
                                 <img id="GalleryImage" title="Gerd" src="/images/photography/600/Gerd_600px.jpg"  data-img="/images/photography/2048/Gerd_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
                                 <img id="GalleryImage" title="Iggy Pop" src="/images/photography/600/IggyPop_600px.jpg"  data-img="/images/photography/2048/IggyPop_2048px.jpg" onclick="fullView(this.getAttribute('data-img'));" draggable="false"></img>
